@@ -1,0 +1,53 @@
+body {
+  background: linear-gradient(
+    rgb(166, 255, 0),
+    rgb(5, 233, 176),
+    rgb(78, 6, 247)
+  );
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 400px;
+  background: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.container img {
+  width: 200px;
+  border: 3px solid rgb(61, 15, 228);
+  border-radius: 20px;
+}
+
+.jogadores-button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.jogadores-button button {
+  width: 100px;
+  background-color: rgb(61, 15, 228);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.jogadores-button button:hover {
+  background-color: rgb(231, 29, 29);
+  color: black;
+}
